@@ -42,7 +42,7 @@
 HTML5, CSS3, JS, REACT
 
 <h2>바로가기</h2>
-https://wajaeju.netlify.app
+https://smartboy98.netlify.app
 
 <div align='center'>
  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=footer&text=감사합니다.&fontSize=80" />
