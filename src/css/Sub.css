@@ -1,0 +1,57 @@
+.Sub{
+}
+.Sub .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+  height: 900px;
+  margin: auto;
+  border: 1px solid #000;
+}
+.Sub .inner>img{
+  box-shadow: 2px 2px 5px rebeccapurple;
+  width: 50%;
+}
+.Sub .inner .Sub_content{
+  width: 47%;
+}
+.Sub .inner .Sub_content .Sub_item{
+  display: flex;
+  font-size: 26px;
+}
+.Sub .inner .Sub_content .Sub_item p:nth-child(2){
+  margin-left: 20px;
+}
+.Sub .inner .Sub_content .Sub_item:nth-child(3) p:nth-child(2){
+  font-weight: 800;
+}
+.Sub .inner .Sub_content .Sub_bottom{
+  display: flex;
+  margin-top: 45px;
+}
+.Sub .inner .Sub_content .Sub_bottom>a{
+  width:60%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 3.5;
+  color: #fafafa;
+  background-color: #3b3b3b;
+  margin-left: 20px;
+}
+.Sub .inner .Sub_content .Sub_bottom_i a{
+display: inline-block;
+border: 3px solid #cacaca;
+}
+.Sub .inner .Sub_content .Sub_bottom_i a:nth-child(2){
+  margin-left: 20px;
+}
+.Sub .inner .Sub_content .Sub_bottom_i a img{
+  width: 30px;
+  padding: 20px;
+  display: inline-block;
+}
+.Sub .inner h1{
+  font-size: 40px;
+}

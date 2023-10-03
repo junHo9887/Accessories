@@ -1,0 +1,59 @@
+.Main{
+  border: 1px solid #000;
+  width: 1150px;
+  margin: auto;
+}
+.Main  h1{
+  text-align: center;
+  line-height: 2;
+  font-size: 50px;
+}
+.Main .content{
+  justify-content: space-between;
+  width: inherit;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Main .content nav{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.Main .content a{
+  width: 350px;
+  height: 400px;
+  margin-top: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #000;
+  box-shadow: 2px 2px 5px rebeccapurple;
+  text-decoration: none;
+}
+.Main .content a:hover{
+  color: rgb(255, 0, 0);
+}
+.Main .content a:hover img{
+  scale: 120%;
+  transition: 1s;
+}
+.Main .content a img{
+  width: inherit;
+  height: inherit;
+}
+
+
+.Main .content a p{
+  line-height: 0.5;
+  font-size: 22px
+}
+.Main .content p:nth-child(2){
+  font-weight: 800;
+}
+.Main .content p:nth-child(3){
+  color: gray;
+
+}

@@ -1,0 +1,81 @@
+.login{
+  width: 1150px;
+  height: 1600px;
+  border: 1px solid #000;
+  margin: auto;
+  display: flex;
+}
+.login .login_item{
+  width: 1000px;
+  margin: auto;
+}
+.login .login_item h1{
+  text-align: center;
+  font-size: 90px;
+  text-shadow: 2px 2px 2px gray;
+}
+.login .login_item nav{
+  position: relative;
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+  height: 700px;
+}
+.login .login_item nav ul{
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.login .login_item nav ul li{
+  list-style: none;
+}
+.login .login_item nav ul a{
+  font-size: 23px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.login .login_item nav ul a:hover{
+  color: red;
+}
+.login .login_item nav p{
+  font-weight: 600;
+  font-size: 35px;
+}
+.login .login_item nav p:nth-child(2){}
+.login .login_item nav input{
+  padding-left: 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  width: 570px;
+  height: 80px;
+}
+.login .login_item nav .check{
+  bottom: 37%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.login .login_item nav .idid{
+  font-size: 28px;
+  margin-left: 70px;
+  position: absolute;
+}
+.login .login_item nav .check>p{
+  font-weight: 100;
+}
+.login .login_item button{
+  cursor: pointer;
+  transform: translate(50%,-70%);
+  border-radius: 10px;
+  color: #000000;
+  font-weight: 900;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+  font-size: 33px;
+  width: 500px;
+  height: 85px;
+  box-shadow: 3px 3px 3px rgb(146, 146, 146);
+}
